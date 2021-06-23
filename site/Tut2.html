@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>src="TUT1/tut2.js"</script>
+        <title> javanism</title>
+    </head>
+    <body>
+        <h1>Welcome to Javascript version </h1>
+      <script>
+          var result = 1;
+function pow(x,n)
+{
+    var result = 0;
+    for(var i = 0; i<n; i++)
+    {
+        if(n==0)
+        {
+            return "1";
+        }
+        else 
+        if(n==1)
+        {
+            return x;
+        }
+        else
+        return x* pow(x,n-1);
+    }
+}
+var res = pow(2,5);
+document.write("raise to the powe n = ", res);
+let arr = [8,5,4,9,"go","home"];
+arr.sort();
+
+arr.splice(0,3, "39","90","hunter");
+document.write(arr);
+      </script>  
+       
+
+    </body>
+</html>
