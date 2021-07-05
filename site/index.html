@@ -3,60 +3,105 @@
 
     <head>
         <script>src="TUT1/tut2.js"</script>
+        <link rel="stylesheet" href="index.css">
         <title> javanism</title>
     </head>
+
+
     <body>
-        <h1>Welcome to Javascript</h1>
-      <script>
-          var result = 1;
-function pow(x,n)
-{
-    var result = 0;
-    for(var i = 0; i<n; i++)
-    {
-        if(n==0)
-        {
-            return "1";
-        }
-        else 
-        if(n==1)
-        {
-            return x;
-        }
-        else
-        return x* pow(x,n-1);
-    }
-}
-var res = pow(2,5);
-document.write("raise to the powe n = ", res);
-let arr = [8,5,4,9,"go","home"];
-arr.sort();
 
-arr.splice(0,3, "39","90","hunter");
-document.write(arr);
+        <header>
+            <nav id="header-nav" class="navbar navbar-default">
+                <a href="navbar.html" class="">
+                    <div id="logo-image" alt="logo image">
+
+                    </div>
+                </a>
+            </nav>
+        </header>
+
+       <section class="secion">
+           <div class="divion">
+            <section>
+
+                <h1>Welcome to Javascript</h1>
+               <script>
+                   var result = 1;
+         function pow(x,n)
+         {
+             var result = 0;
+             for(var i = 0; i<n; i++)
+             {
+                 if(n==0)
+                 {
+                     return "1";
+                 }
+                 else 
+                 if(n==1)
+                 {
+                     return x;
+                 }
+                 else
+                 return x* pow(x,n-1);
+             }
+         }
+         var res = pow(2,5);
+         document.write("raise to the powe n = ", res);
+         let arr = [8,5,4,9,"go","home"];
+         arr.sort();
+         
+         arr.splice(0,3, "39","90","hunter");
+         document.write(arr);
+              
+              </script>  
+           </div>
+       </section>
+
+
+
      
-     </script>  
-
-     <div>
-       <p><center>Git is software for tracking changes 
-           <DIV>in any set of files, usually used for  coordinating work 
-            among programmers collaboratively  developing source code </DIV>
-           during software development. 
-           Its goals include speed, data integrity, and supp</p></center>
-          <SPAN> Hostility and resistance is not the absence of peace,</SPAN>
-            and peace is not the presence of justice. When resistance 
-            and hostility persist, true justice is serve and peace reigns.
-Freedom for the people of Ambazonian or hostility and resistance for ever.
-        </div>
-           <hr>
+<section class ="beg">
+    
+    <div>
+        <p><center>Git is software for tracking changes 
+            <DIV>in any set of files, usually used for  coordinating work 
+             among programmers collaboratively  developing source code </DIV>
+            during software development. 
+            Its goals include speed, data integrity, and supp</p></center>
+           <SPAN> Hostility and resistance is not the absence of peace,</SPAN>
+             and peace is not the presence of justice. When resistance 
+             and hostility persist, true justice is serve and peace reigns.
+ Freedom for the people of Ambazonian or hostility and resistance for ever.
+         </div>
+</section>
+           
            <section class="herta">
                <div>
-                   <img src="image9.jpg">
+                   <img src="IMAGES/image11.jpg">
                    <P>THAT IS UNBELEIVABLE AND NOT TRUE</P>
                    <H1><CENTER>PUT EVERYTHING IN THE CENTER</CENTER></H1>
                </div>
            </section>
 
-           
+           <section class="sectoria">
+               <div class ="mod">
+                <h1 class="heds">Box Model</h1>
+                <p>Where is the power of self content</p>
+                <div>we can still atttach immages 
+                    here and that will be fine</div>
+                </div>
+            </section>
+           <section class="pecan">
+               <div id="pet">
+                   <p id="p1">Git is software for tracking changes
+                    in any set of files, usually used for coordinating</p>
+                   <p id="p2"></p>
+                   <p id="p3"></p>
+                   <p id="p4"></p>
+                   <p id="p5"></p>
+                   <p id="p6"></p>
+               </div>
+           </section>  
+             
     </body>
 </html>

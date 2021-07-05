@@ -1,0 +1,24 @@
+
+
+
+body {
+    background-color:maroon; 
+}
+
+#logo-image{
+    width: 50%;
+    height: 210px;
+    background: url(IMAGES/logo3.jpg) no-repeat;
+    
+    
+    
+}
+
+#header-nav {
+    height:auto;
+    position: relative;
+    margin:0;
+    width: 100%;
+    border:0;
+    background-color: midnightblue;
+}
